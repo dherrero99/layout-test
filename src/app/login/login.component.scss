@@ -1,0 +1,134 @@
+.login-container {
+  width: 60%;
+  height: 700px;
+  background-color: white;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: auto;
+}
+
+.logo-container {
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  padding: 10px;
+  border-bottom: 1px solid #d9dadc;
+  margin-bottom: 20px;
+}
+
+.logo {
+  height: 100%;
+}
+
+.col {
+  display: flex;
+  justify-content: space-evenly;
+  flex-direction: column;
+  padding: 0 10px;
+  margin: 0 20%;
+}
+
+.row {
+  display: flex;
+  flex-direction: row;
+}
+
+.text-bold {
+  font-weight: bold;
+  margin: auto;
+  margin-bottom: 8px;
+}
+
+.btn {
+  padding: 10px;
+  width: 100%;
+  margin-bottom: 10px;
+  border-radius: 15px;
+  border: none;
+}
+
+.logo-mini {
+  height: 15px;
+  margin-right: 5px;
+}
+
+.btn-facebook {
+  color: #fff;
+  background-color: #3b5998;
+}
+
+.btn-apple {
+  color: #fff;
+  background-color: black;
+}
+
+.btn-google {
+  color: black;
+  background-color: white;
+  border: 1px solid rgb(46, 46, 46);
+}
+
+.divider {
+  border-top: 1px solid #d9dadc;
+  margin: 10px 0;
+  margin-top: 10px;
+  margin-bottom: 20px;
+  line-height: 1px;
+  text-align: center;
+  width: 100%;
+}
+
+.divider-title {
+  background: white;
+  text-transform: uppercase;
+  padding: 0 20px;
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+}
+
+.form-col {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 15px;
+}
+
+.label {
+  margin-bottom: 5px;
+  font-weight: bold;
+}
+
+.input {
+  padding: 6px;
+  border: 1px solid rgb(206, 206, 206);
+}
+
+.input:focus {
+  border: 1px solid rgb(70, 70, 70);
+  outline: none;
+}
+
+.input::placeholder {
+  color: rgb(124, 124, 124);
+}
+
+.a{
+    text-align: start;
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.checkbox{
+    margin-right: 5px;
+    margin-bottom: 10px;
+}
+
+.btn-log-in {
+    color: #fff;
+    background-color: rgb(28, 138, 28);
+  }

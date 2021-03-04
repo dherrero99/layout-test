@@ -1,14 +1,29 @@
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
+import { RouterModule } from '@angular/router';
+import { AppRoutingModule } from './app-routing.module';
+import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 
 import { AppComponent } from './app.component';
+import { NavigationVarComponent } from './navigation-var/navigation-var.component';
+import { SquareAlignComponent } from './square-align/square-align.component';
+import { TitleCircularComponent } from './title-circular/title-circular.component';
+import { LoginComponent } from './login/login.component';
+
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    NavigationVarComponent,
+    SquareAlignComponent,
+    TitleCircularComponent,
+    LoginComponent
   ],
   imports: [
-    BrowserModule
+    BrowserModule,
+    AppRoutingModule,
+    RouterModule,
+    BrowserAnimationsModule
   ],
   providers: [],
   bootstrap: [AppComponent]
