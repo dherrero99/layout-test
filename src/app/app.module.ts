@@ -9,6 +9,7 @@ import { NavigationVarComponent } from './navigation-var/navigation-var.componen
 import { SquareAlignComponent } from './square-align/square-align.component';
 import { TitleCircularComponent } from './title-circular/title-circular.component';
 import { LoginComponent } from './login/login.component';
+import { AnimationComponent } from './animation/animation.component';
 
 
 @NgModule({
@@ -17,7 +18,8 @@ import { LoginComponent } from './login/login.component';
     NavigationVarComponent,
     SquareAlignComponent,
     TitleCircularComponent,
-    LoginComponent
+    LoginComponent,
+    AnimationComponent
   ],
   imports: [
     BrowserModule,

@@ -5,7 +5,12 @@ export const slider =
     transition('* => squares', slideTo('left') ),
     transition('squares => circular', slideTo('right') ),
     transition('login => circular', slideTo('left') ),
-    transition('* => login', slideTo('right') ),
+    transition('squares => login', slideTo('right') ),
+    transition('circular => login', slideTo('right') ),
+    transition('login => circular', slideTo('left') ),
+    transition('animation => circular', slideTo('left') ),
+    transition('animation => login', slideTo('left') ),
+    transition('* => animation', slideTo('right') ),
   ]);
 
 function slideTo(direction) {
