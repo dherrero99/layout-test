@@ -10,6 +10,7 @@ import { SquareAlignComponent } from './square-align/square-align.component';
 import { TitleCircularComponent } from './title-circular/title-circular.component';
 import { LoginComponent } from './login/login.component';
 import { AnimationComponent } from './animation/animation.component';
+import { GameComponent } from './animation/game/game.component';
 
 
 @NgModule({
@@ -19,7 +20,8 @@ import { AnimationComponent } from './animation/animation.component';
     SquareAlignComponent,
     TitleCircularComponent,
     LoginComponent,
-    AnimationComponent
+    AnimationComponent,
+    GameComponent
   ],
   imports: [
     BrowserModule,

@@ -1,0 +1,11 @@
+<img class="img" 
+    [src]="game.image" 
+    class="game"
+    (click)="index == 0?onClick():null"
+    [@gameZoom]="gameZoom"
+    (@gameZoom.done)="onAnimationEnd($event)"
+    [style.z-index]="zIndex"
+    [style.margin-left]="marginLeft.toString() + 'px'"
+    [style.margin-top]="marginTop.toString() + 'px'"
+    alt="{{index}}" />
+

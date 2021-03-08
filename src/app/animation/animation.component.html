@@ -1,9 +1,12 @@
-<div class="row">
-    <div class="title">
-        HELLO
-    </div>
+
+
+  <div class="row">
+    <div class="title">{{ games[0].title }}</div>
     <div class="container">
-        <div class="square1"></div>
-        <div class="square2"></div>
+      <app-game
+        *ngFor="let game of games"
+        [game]=game>
+      </app-game>
     </div>
-</div>
+  </div>
+
